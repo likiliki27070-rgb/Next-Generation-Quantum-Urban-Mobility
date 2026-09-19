@@ -1,5 +1,3 @@
-# Next-Generation-Quantum-Urban-Mobility
-
 Q-Flow — Quantum-Enhanced Adaptive Urban Traffic Intelligence
 
 <p align="center">
@@ -12,6 +10,14 @@ Q-Flow — Quantum-Enhanced Adaptive Urban Traffic Intelligence
   <img src="https://img.shields.io/badge/3D-WebGL-7C3AED?style=for-the-badge" alt="3D WebGL" />
   <img src="https://img.shields.io/badge/Quantum-QUBO%20%2B%20QAOA-8B5CF6?style=for-the-badge" alt="Quantum Optimization" />
   <img src="https://img.shields.io/badge/Simulation-Smart%20City-10B981?style=for-the-badge" alt="Smart City Simulation" />
+</p>
+
+<p align="center">
+  <img src="./assets/qflow-3d-hero.svg" alt="Q-Flow 3D Smart City Digital Twin" width="100%" />
+</p>
+
+<p align="center">
+  <sub>Interactive 3D Earth → Urban Digital Twin → Adaptive Traffic Intelligence</sub>
 </p>
 
 Overview
@@ -298,6 +304,28 @@ Classical vs hybrid comparison
 System diagnostics
 
 The source requirements explicitly call for an interactive dashboard showing the road network, traffic density, current and optimized signals, emergency route, queue length, waiting time, fuel/CO₂ estimates, and classical-vs-quantum results. fileciteturn0file0L45-L54
+
+3D System Visualization
+
+The README uses lightweight, GitHub-compatible SVG artwork to visualize the same layered experience as the prototype: a global 3D Earth, city digital twin, traffic/camera simulation, and the hybrid quantum optimization layer.
+
+<p align="center">
+  <img src="./assets/qflow-3d-architecture.svg" alt="Q-Flow 3D system architecture" width="92%" />
+</p>
+
+3D Visual Language
+
+Depth: layered isometric surfaces represent the system stack.
+
+Glow: cyan/violet accents represent live intelligence and optimization.
+
+Glass: translucent city surfaces represent the digital-twin interface.
+
+Flow: directional paths represent data, traffic, and optimization movement.
+
+Emergency: the red corridor in the visual language represents priority routing.
+
+These visuals are documentation graphics for GitHub; the actual prototype provides the interactive WebGL/3D experience.
 
 Cinematic Introduction
 
